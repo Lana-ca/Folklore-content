@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is an academic research content repository containing materials related to Black folklore, racial representation, and anthropology. The repository serves as a collection point for research materials including PDFs and text excerpts.
+This is an academic research content repository (not a code repository) containing materials related to Black folklore, racial representation, and anthropology. The repository serves as a collection point for research materials including PDFs and text excerpts.
 
 ## Repository Contents
 
@@ -41,8 +41,10 @@ When referencing materials from this repository:
 ### Common Tasks
 
 **Searching for Specific Topics**:
-- Use `grep` to search within the text file for keywords
+- Use the Grep tool to search within the text file for keywords
 - Example: Search for references to the Hampton Folklore Society, Anna Julia Cooper, or William Wells Newell
+- The main text file (Moody-Turner) is comprehensive and searchable
+- PDFs can be read directly using the Read tool
 
 **Organizing Citations**:
 - Materials span late 19th century to contemporary scholarship
@@ -58,12 +60,11 @@ When referencing materials from this repository:
 
 ## Git Workflow
 
-This repository is on branch: `claude/init-project-01XiLDkL18SuFyqs2K9kqEvM`
-
 When making changes:
 - Add new research materials with descriptive file names
 - Commit with clear messages describing what materials were added
 - Use `git push -u origin <branch-name>` when pushing changes
+- Check current branch with `git branch --show-current` before pushing
 
 ## Research Context
 
